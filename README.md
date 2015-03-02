@@ -20,20 +20,24 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bow
 
 ### Usage
 
-    docker run -it --rm dockerfile/nodejs-bower-grunt
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass
 
 #### Run `node`
 
-    docker run -it --rm dockerfile/nodejs-bower-grunt node
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass node
 
 #### Run `npm`
 
-    docker run -it --rm dockerfile/nodejs-bower-grunt npm
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass npm
 
 #### Run `bower`
 
-    docker run -it --rm dockerfile/nodejs-bower-grunt bower
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass bower
 
 #### Run `grunt`
 
-    docker run -it --rm dockerfile/nodejs-bower-grunt grunt
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass grunt
+
+#### Run `compass`
+
+    docker run -it --rm dockerfile/nodejs-bower-grunt-compass compass
